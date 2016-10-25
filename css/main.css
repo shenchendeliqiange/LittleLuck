@@ -52,15 +52,15 @@
 	background-position:center; 
 	background-repeat:no-repeat; 
 	background-size: 100% 100%;	
-	/*display:none;*/
+	display:none;
 }
 
 #search{
 	position:relative;
 	top:10%;
 	left:10%;
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	background-image:url(../resource/images/button_bk.jpg);
 	background-position:center; 
 	background-repeat:no-repeat; 
@@ -68,24 +68,25 @@
 	transform: rotate(45deg);
 	-ms-transform: rotate(45deg); /* IE 9 */
 	-webkit-transform: rotate(45deg); /* Safari and Chrome */
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 8px 8px 8px grey;
 }
 
 .buttonText{
 	transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg); /* IE 9 */
 	-webkit-transform: rotate(-45deg); /* Safari and Chrome */
-	line-height:100px;
+	line-height:150px;
 	text-align:center;
-	text-shadow: 2px 2px 2px grey;
+	font-size:30px;
+	text-shadow: 3px 3px 3px grey;
 }
 
 #achieve{
 	position:relative;
 	top:12%;
 	left:25%;
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	background-image:url(../resource/images/button_bk.jpg);
 	background-position:center; 
 	background-repeat:no-repeat; 
@@ -93,15 +94,15 @@
 	transform: rotate(45deg);
 	-ms-transform: rotate(45deg); /* IE 9 */
 	-webkit-transform: rotate(45deg); /* Safari and Chrome */
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 8px 8px 8px grey;
 }
 
 #publish{
 	position:relative;
 	top:14%;
 	left:10%;
-	width:100px;
-	height:100px;
+	width:150px;
+	height:150px;
 	background-image:url(../resource/images/button_bk.jpg);
 	background-position:center; 
 	background-repeat:no-repeat; 
@@ -109,5 +110,5 @@
 	transform: rotate(45deg);
 	-ms-transform: rotate(45deg); /* IE 9 */
 	-webkit-transform: rotate(45deg); /* Safari and Chrome */
-	box-shadow: 5px 5px 5px grey;
+	box-shadow: 8px 8px 8px grey;
 }
