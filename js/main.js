@@ -1,12 +1,13 @@
 
 
 $(document).ready(function(){
-
-	
 	var ids = ["page_home_top_h1_1","page_home_top_h1_2","page_home_bottom_h1_1"];
 	var textArrs = [["Nice ","to ","meet ","you ","Qiange","~"],["You ","are ","my ","little ","luck","!"],["Press ","to ","continue ","our ","story",".",".","."]];
-
 	addTextIteration(ids,textArrs,0);
+	
+	$("#page_home_bottom_h1_1").click(function(){
+		$("#page_1").css("display","block");
+	});
 	
 });
 
