@@ -1,12 +1,26 @@
-
+﻿
 
 $(document).ready(function(){
 	var ids = ["page_home_top_h1_1","page_home_top_h1_2","page_home_bottom_h1_1"];
-	var textArrs = [["Nice ","to ","meet ","you ","Qiange","~"],["You ","are ","my ","little ","luck","!"],["Press ","to ","continue ","our ","story",".",".","."]];
+	//var textArrs = [["Nice ","to ","meet ","you ","Qiange","~"],["You ","are ","my ","little ","luck","!"],["Press ","to ","continue ","our ","story",".",".","."]];
+	var textArrs = [["N","i","c","e ","t","o ","m","e","e","t ","y","o","u ","Q","i","a","n","g","e","~"],["Y","o","u ","a","r","e ","m","y ","l","i","t","t","l","e ","l","u","c","k","!"],["P","r","e","s","s ","t","o ","c","o","n","t","i","n","u","e ","o","u","r ","s","t","o","r","y",".",".","."]];
+
 	addTextIteration(ids,textArrs,0);
 	
 	$("#page_home_bottom_h1_1").click(function(){
 		$("#page_1").css("display","block");
+	});
+	
+	$("#search").click(function(){
+		alert("我还没做完！");
+	});
+	
+	$("#achieve").click(function(){
+		alert("敬请期待");
+	});
+	
+	$("#publish").click(function(){
+		alert("我想你了！！");
 	});
 	
 });
@@ -27,7 +41,7 @@ function addTextIteration(ids,arrs,count){
 				clearInterval(textTimer);
 				addTextIteration(ids,arrs,count+1);
 			}
-		},400);
+		},200);
 	}
 	
 }
