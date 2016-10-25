@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#page_home{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-image:url(../resource/images/background.jpg);
+	background-position:center; 
+	background-repeat:no-repeat; 
+	background-size: 100% 60%;	
+}
+
+#page_home_top{
+	position:relative;
+	width:100%;
+	height:20%;
+}
+
+#page_home_top h1{
+	font-family:Papyrus;
+	text-align:center;
+	padding-top:5%;
+}
+
+
+#page_home_space{
+	position:relative;
+	width:100%;
+	height:60%;
+}
+
+#page_home_bottom{
+	position:relative;
+	width:100%;
+	height:20%;
+}
+
+#page_home_bottom h1{
+	font-family:Papyrus;
+	text-align:center;
+	padding-top:10%;
+}
+
+#page_1{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:blue;
+	display:none;
+}
